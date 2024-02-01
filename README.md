@@ -1,33 +1,36 @@
 # Cyberdude Challenges - React Js
 
-## Task 03: Create a
+## Task 03: Create a Post viewer App using API
 
-Need to create a Portfolio App using React.js. Here all the datas need comes from JSON file.
+Need to create a posts viewer app in React.js using API. When user clicks a post, it need to show full details of the respective page.
 
 ### Live link
 
-https://mushkir-json-portfolio-react-app.netlify.app/
+https://post-finder-react-app.netlify.app/
 
 ## Technologies and Libraries Used and Learned
 
-| s.no | Technologies and Libraries Used                                          |
+| S.No | Technologies and Libraries Used                                          |
 | :--- | ------------------------------------------------------------------------ |
 | 01   | [React Js](https://www.youtube.com/live/Yc8JxiCdNQE?si=kTkPpKa5uqfLubpC) |
 
 ### Screenshots
 
 [!Screenshot01]
-https://ibb.co/7Nq781W
+https://ibb.co/CsJ9ZNj
 
 [!Screenshot02]
-https://ibb.co/rxqLrsF
+https://ibb.co/p4BkMdG
+
+[!Screenshot03]
+https://ibb.co/6sYq5JQ
 
 ## Installation
 
 - Clone the Repo into Local machine
 
 ```bash
-  git clone https://github.com/Mushkir/react-portfolio-json-app.git
+  git clone https://github.com/Mushkir/post-showing-react-app-using-API.git
 
 ```
 

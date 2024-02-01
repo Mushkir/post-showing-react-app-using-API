@@ -4,14 +4,15 @@ import { Link } from "react-router-dom";
 const TheNavBar = () => {
   return (
     <div className="relative">
-      <div className=" bg-headerDark font-Sen p-10 text-white flex items-center justify-between px-20 fixed top-0 right-0 left-0">
-        <div>
-          <h2 className="text-3xl font-semibold">Post Finder</h2>
-        </div>
+      <div className=" bg-headerDark font-Sen p-10 text-white flex items-center justify-between sm:px-20 fixed top-0 right-0 left-0">
+        <Link to="/">
+          <h2 className="text-2xl sm:text-3xl font-semibold">Post Finder</h2>
+        </Link>
 
         <Link
-          to={""}
-          className="flex items-center gap-x-1 text-xl bg-bodyWhite px-4 py-2 rounded-md text-headerDark font-semibold hover:bg-hoverWhite hover:trasition delay-150"
+          to={"https://github.com/Mushkir/post-showing-react-app-using-API"}
+          target="_blank"
+          className="flex items-center gap-x-1 sm:text-xl bg-bodyWhite px-3 py-1.5 sm:px-4 sm:py-2 rounded-md text-headerDark font-semibold hover:bg-hoverWhite hover:trasition delay-150"
         >
           <div>
             <svg
